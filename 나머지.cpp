@@ -23,4 +23,4 @@ int main(int argc, char **argv) {
 	cout << ((a%c) * (b%c)) % c << endl;
 	
 }
-s
+
