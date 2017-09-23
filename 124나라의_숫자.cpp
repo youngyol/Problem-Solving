@@ -11,19 +11,17 @@ string change124(int no){
   int mod;
   while (no > 0){
     mod = no% 3 ;
-  	no = no/3;
+    no = no/3;
     if(mod == 0) no--;
     answer = (arr[mod]+"") + answer;
-  
   }
-	return answer;
+  return answer;
 }
 int main()
 { 
   
   
   int testNo = 139999;
-	string testAnswer = change124(10);
-
-	cout<<testAnswer;
+  string testAnswer = change124(testNo);
+  cout<<testAnswer;
 }
