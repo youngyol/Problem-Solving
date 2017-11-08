@@ -16,12 +16,8 @@ public class Main {
 		BigInteger B = new BigInteger(number2);
 			
 		
-		if(operator.equals("*")){
-			System.out.print (A.multiply(B));
-		}
-		else{
-			System.out.print (A.add(B));
-		}
+		System.out.print(operator.equals("*")? A.multiply(B) : A.add(B) );
+		
 	}
  
 }	
