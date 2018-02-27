@@ -1,4 +1,4 @@
-# solvingProblem
+# Problem-Solving
 
 https://www.acmicpc.net/ <br/>
 https://programmers.co.kr/learn/challenges<br/>
