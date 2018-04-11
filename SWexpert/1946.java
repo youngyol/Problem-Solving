@@ -1,3 +1,5 @@
+// https://www.swexpertacademy.com/main/talk/solvingClub/problemView.do
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
