@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/spiral-matrix-ii/description/
+
 class Solution {
     public int[][] generateMatrix(int n) {
         int[][] dir = { {0, 1}, {1, 0}, {0, -1}, {-1, 0} }; // 0, 1 ,2,3
