@@ -22,13 +22,14 @@ class Solution {
         
         while(!queue.isEmpty()){
           TreeNode temp = queue.poll();
+            
           if(temp == null){
               level++;
               queue.add(null);
-              
               max =Integer.MIN_VALUE;
-              if(queue.peek() == null) break;
-              else{
+              if(queue.peek() == null) {
+                  break;
+              }else{
                   maxValues.add(level,max);
                   continue;
               }
